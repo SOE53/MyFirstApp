@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import Navigator from './Config/routes';
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <View>
         <Text>
 MyFirstApp
         </Text>
-        <Navigator onNavigationStateChange={null} />
       </View>
     );
   }
 }
 
-export default App;
+export default Home;
