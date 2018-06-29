@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import Navigator from './Config/routes';
+import Navigator from './config/routes';
 
 class App extends Component {
   render() {

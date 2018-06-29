@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ScrollView, StatusBar, Linking } from 'react-native';
-import { ListItem, Separator, Icon } from '../components/List';
-import { AlertConsumer } from '../components/Alert';
+import { ListItem, Separator, Icon } from '../Components/List';
+import { AlertConsumer } from '../Components/Alert';
 
 const ICON_COLOR = '#868686';
 const ICON_SIZE = 23;
